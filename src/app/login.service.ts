@@ -6,7 +6,7 @@ import { Http }       from '@angular/http';
 export class LoginService {
   
   constructor(private http: Http) {}
-  doLogin(loginData : Object): Promise<Object> {
+  doLogin(loginData: any): Promise<Object> {
     return new Promise((resolve, reject)=>{
       //this.http.post('/api/login',loginData)
       //              .then((response)=>{
