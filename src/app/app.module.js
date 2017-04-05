@@ -13,6 +13,10 @@ var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
 var login_component_1 = require("./login.component");
 var home_component_1 = require("./home.component");
+var table_component_1 = require("./table/table.component");
+var tableHeader_component_1 = require("./table/tableHeader.component");
+var tableData_component_1 = require("./table/tableData.component");
+var displaytable_component_1 = require("./table/displaytable.component");
 var app_routing_module_1 = require("./app-routing.module");
 var AppModule = (function () {
     function AppModule() {
@@ -30,7 +34,11 @@ AppModule = __decorate([
         declarations: [
             app_component_1.AppComponent,
             login_component_1.LoginComponent,
-            home_component_1.HomeComponent
+            home_component_1.HomeComponent,
+            table_component_1.TableComponent,
+            tableHeader_component_1.TableHeaderComponent,
+            tableData_component_1.TableDataComponent,
+            displaytable_component_1.DisplayTableComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })
